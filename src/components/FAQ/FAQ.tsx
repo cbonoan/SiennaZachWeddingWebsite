@@ -1,4 +1,5 @@
 import { Container } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import '../../styles/FAQ/FAQ.scss';
 
 const FAQ = () => {
@@ -69,7 +70,7 @@ const FAQ = () => {
                     Do you have any hotel or vacation rental recommendations?
                 </h5>
                 <span>
-                    Feel free to search for your own AirBNB, Hotel, Vacation rental. Check <a href='/travel-stay'>here</a> for
+                    Feel free to search for your own AirBNB, Hotel, Vacation rental. Check <Link to='/travel-stay'>here</Link> for
                     our recommendations!
                 </span>
             </Container>

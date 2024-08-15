@@ -1,5 +1,6 @@
 import { Button } from 'react-bootstrap';
 import Image from 'react-bootstrap/Image';
+import { Link } from 'react-router-dom';
 import CeremonyImage from '../../assets/ceremony-details-img.jpg';
 import ReceptionImage from '../../assets/reception-details-img.jpg';
 import '../../styles/Home/EventDetails.scss';
@@ -43,7 +44,9 @@ const EventDetails = () => {
                     <hr/>
                     <div id='see-how-it-started-btn'>
                         <h2>See how it all started</h2>
-                        <Button variant='dark' href='/our-story'>Our Story</Button>
+                        <Link to='/our-story'>
+                            <Button variant='dark'>Our Story</Button>
+                        </Link>
                     </div>
                     <hr/>
                 </div>
