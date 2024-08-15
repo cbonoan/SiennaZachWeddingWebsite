@@ -1,4 +1,5 @@
 import { Container } from 'react-bootstrap';
+import { Outlet } from 'react-router-dom';
 import '../../styles/FAQ/FAQ.scss';
 
 const FAQ = () => {
@@ -73,6 +74,7 @@ const FAQ = () => {
                     our recommendations!
                 </span>
             </Container>
+            <Outlet/>
         </>
     )
 }
