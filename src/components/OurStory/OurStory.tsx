@@ -5,6 +5,8 @@ import ZachQuote from '../../assets/ZachQuote';
 import CarouselImage1 from '../../assets/carousel-img-1.jpg';
 import CarouselImage2 from '../../assets/carousel-img-2.jpg';
 import CarouselImage3 from '../../assets/carousel-img-3.jpg';
+import CarouselImage4 from '../../assets/carousel-img-4.jpg';
+import CarouselImage5 from '../../assets/carousel-img-5.jpg';
 import OurStoryImage2 from '../../assets/our-story-img-2.jpg';
 import OurStoryImage from '../../assets/our-story-img.jpg';
 import '../../styles/OurStory/OurStory.scss';
@@ -49,10 +51,16 @@ const OurStory = () => {
                             <Image src={CarouselImage1}/>
                         </Carousel.Item>
                         <Carousel.Item>
+                            <Image src={CarouselImage3}/>
+                        </Carousel.Item>
+                        <Carousel.Item>
                             <Image src={CarouselImage2}/>
                         </Carousel.Item>
                         <Carousel.Item>
-                            <Image src={CarouselImage3}/>
+                            <Image src={CarouselImage4}/>
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <Image src={CarouselImage5}/>
                         </Carousel.Item>
                     </Carousel>
                 </div>

@@ -20,7 +20,7 @@ const RSVP = () => {
                     href='https://docs.google.com/forms/d/e/1FAIpQLSceuvVFn167ckaL-9dErpJtZriP1qIRk8cTYWTTwnkqsJ3jmg/viewform?vc=0&c=0&w=1&flr=0&usp=mail_form_link'
                 >
                     <Button variant='light'>
-                            RSVP
+                        RSVP
                     </Button>
                 </a>
             </div>

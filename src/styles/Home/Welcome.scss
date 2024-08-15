@@ -2,7 +2,7 @@
     background-image: url('../../assets/welcome-img.jpg');
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 95vh;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -11,9 +11,28 @@
     color: white;
 
     span {
-        margin-bottom: 75px;
+        margin-left: 45vw;
+        
+        br {
+            display: none;
+        }
     }
+
     h1 {
         font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .welcome-content {
+        height: 78vh;
+
+        span {
+            margin-left: 0;
+
+            br {
+                display: block;
+            }
+        }
     }
 }

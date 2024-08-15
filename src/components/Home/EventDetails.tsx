@@ -19,9 +19,11 @@ const EventDetails = () => {
                         <h1>Ceremony</h1>
                         <hr />
                         <h2>2:45 PM</h2>
-                        <h4>Maui Pineapple Chapel</h4>
-                        <h4>6012 Lower Honoapiilani Rd</h4>
-                        <h4>Lahaina, HI</h4>
+                        <a target='_blank' href='https://www.google.com/maps/dir/32.8794112,-117.2078592/6012+Lower+Honoapiilani+Rd,+Lahaina,+HI+96761/@19.4952463,177.2216204,3z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x7eaad5c831bfa07d:0xfa26927ff33c9d7c!2m2!1d-156.655886!2d21.0027864?entry=ttu'>
+                            <h4>Maui Pineapple Chapel - Mau'u Terrace</h4>
+                            <h4>6012 Lower Honoapiilani Rd</h4>
+                            <h4>Lahaina, HI</h4>
+                        </a>
                     </div>
                 </div>
 
@@ -35,8 +37,11 @@ const EventDetails = () => {
                         <h1>Reception</h1>
                         <hr />
                         <h2>5:00 PM</h2>
-                        <h4>Location TBA</h4>
-                        <h4>Lahaina, HI</h4>
+                        <a target='_blank' href='https://www.google.com/maps/dir/32.8794112,-117.2078592/6012+Lower+Honoapiilani+Rd,+Lahaina,+HI+96761/@19.4952463,177.2216204,3z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x7eaad5c831bfa07d:0xfa26927ff33c9d7c!2m2!1d-156.655886!2d21.0027864?entry=ttu'>
+                            <h4>Maui Pineapple Chapel - Makai Lawn</h4>
+                            <h4>6012 Lower Honoapiilani Rd</h4>
+                            <h4>Lahaina, HI</h4>
+                        </a>
                     </div>
                 </div>
 

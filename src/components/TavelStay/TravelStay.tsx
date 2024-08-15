@@ -63,12 +63,12 @@ const TravelStay = () => {
                 <span><h1>Vacation Rentals</h1></span>
                 <Container>
                     <Row>
-                        <Col sm={12} md={6}>
+                        <Col sm={6}>
                             <div className='vacation-rental'>
                                 <h2><a target='_blank' href='https://www.tropicalsunsetvilla.com'>Tropical Sunset Villa</a></h2>
                             </div>
                         </Col>
-                        <Col sm={12} md={6}>
+                        <Col sm={6}>
                             <div className='vacation-rental'>
                                 <h2><a target='_blank' href='https://hawaiivacationcondos.outrigger.com/hawaii/maui/outrigger-honua-kai-resort-spa'>Aina Nalu</a></h2>
                                 <span>Phone: (808) 661-4470</span>
@@ -77,13 +77,13 @@ const TravelStay = () => {
                         </Col>
                     </Row>
                     <Row>
-                        <Col sm={12} md={6}>
+                        <Col sm={6}>
                             <div className='vacation-rental'>
                                 <h2><a target='_blank' href='https://makoaresorts.com/'>Villas by the Cove</a></h2>
                                 <span>Phone: (808) 495-6826</span>
                             </div>
                         </Col>
-                        <Col sm={12} md={6}>
+                        <Col sm={6}>
                             <div className='vacation-rental'>
                                 <h2><a target='_blank' href='https://makoaresorts.com/'>Wailea Inn</a></h2>
                                 <span>Phone: (800) 405-0476</span>

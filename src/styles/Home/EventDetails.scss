@@ -1,11 +1,15 @@
 #event-details {
     margin-top: 100px;
 
+    a {
+        text-decoration: underline;
+    }
+
     #ceremony-details {
         margin-bottom: 50px;
     }
 
-    #ceremony-details, #reception-details{
+    #ceremony-details, #reception-details {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -33,6 +37,12 @@
             hr {
                 display: none;
             }
+        }
+
+        img {
+            border: 5px solid #8EB2D9; /* Border color (golden tone) */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 
+              0 6px 20px rgba(0, 0, 0, 0.19); /* Box-shadow for 3D effect */
         }
     }
 

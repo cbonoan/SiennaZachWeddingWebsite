@@ -25,7 +25,7 @@ const CustomNavbar = () => {
     return (
         <>
             <Navbar 
-                expand="lg" 
+                expand="lg"
                 expanded={expanded}
                 onToggle={onToggle}
             >

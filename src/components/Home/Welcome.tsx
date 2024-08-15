@@ -8,6 +8,7 @@ const Welcome = () => {
             <div className='welcome-content'>
                 <span>
                     <h5> We're Getting Married! </h5>
+                    <br/>
                     <h1> Sienna & Zach </h1>
                     <h5> 4.5.2025 </h5>
                 </span>
