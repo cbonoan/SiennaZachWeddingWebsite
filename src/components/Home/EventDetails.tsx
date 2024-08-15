@@ -1,6 +1,5 @@
 import { Button } from 'react-bootstrap';
 import Image from 'react-bootstrap/Image';
-import { Outlet } from 'react-router-dom';
 import CeremonyImage from '../../assets/ceremony-details-img.jpg';
 import ReceptionImage from '../../assets/reception-details-img.jpg';
 import '../../styles/Home/EventDetails.scss';
@@ -49,7 +48,6 @@ const EventDetails = () => {
                     <hr/>
                 </div>
             </div>
-            <Outlet/>
         </>
     );
     

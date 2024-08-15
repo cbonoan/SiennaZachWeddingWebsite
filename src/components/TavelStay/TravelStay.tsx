@@ -30,7 +30,7 @@ const TravelStay = () => {
                 <Container>
                     <Row>
                         {recommendations1.map(recommendation => (
-                            <Col sm={12} lg={4}>
+                            <Col key={recommendation.hotelName} sm={12} lg={4}>
                                 <Recommendation 
                                     imgSrc={recommendation.imgSrc}
                                     hotelName={recommendation.hotelName}
@@ -44,7 +44,7 @@ const TravelStay = () => {
                     </Row>
                     <Row>
                         {recommendations2.map(recommendation => (
-                            <Col sm={6}>
+                            <Col key={recommendation.hotelName} sm={6}>
                                 <Recommendation 
                                     imgSrc={recommendation.imgSrc}
                                     hotelName={recommendation.hotelName}

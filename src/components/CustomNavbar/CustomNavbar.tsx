@@ -3,7 +3,7 @@ import { Button } from "react-bootstrap";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import { Link, Outlet, useLocation } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import '../../styles/CustomNavbar/CustomNavbar.scss';
 import NavLink from "./NavLink";
 import Toggle from "./Toggle";
@@ -72,7 +72,6 @@ const CustomNavbar = () => {
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
-            <Outlet />
         </>
     );
 }
