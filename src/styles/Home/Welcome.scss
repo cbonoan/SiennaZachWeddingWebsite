@@ -1,0 +1,19 @@
+.welcome-content {
+    background-image: url('../../assets/welcome-img.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+    span {
+        margin-bottom: 75px;
+    }
+    h1 {
+        font-size: 3rem;
+    }
+}

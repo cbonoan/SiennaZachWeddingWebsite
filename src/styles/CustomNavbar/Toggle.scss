@@ -1,0 +1,58 @@
+svg {
+    &.show {
+        path {
+            &#top-line {
+                animation: top-line-anim 0.35s ease-in-out forwards;
+            }
+            &#bottom-line {
+                animation: bottom-line-anim 0.35s ease-in-out forwards;
+            }
+        }
+    }
+    &.close {
+        path {
+            &#top-line {
+                animation: top-line-anim-reverse 0.35s ease-in-out forwards;
+            }
+            &#bottom-line {
+                animation: bottom-line-anim-reverse 0.35s ease-in-out forwards;
+            }
+        }
+    }
+}
+
+@keyframes top-line-anim {
+    from {
+        rotate: (0);
+    } to {
+        transform-origin: center;
+        transform: rotate(-45deg) translate(0, -7px);
+    }
+}
+
+@keyframes top-line-anim-reverse {
+    from {
+        transform-origin: center;
+        transform: rotate(-45deg) translate(0, -7px);
+    } to {
+        rotate: (0);
+    }
+}
+
+@keyframes bottom-line-anim {
+    from {
+        rotate: (0);
+    } to {
+        transform-origin: center;
+        transform: rotate(45deg) translate(0, 8px);
+    }
+}
+
+@keyframes bottom-line-anim-reverse {
+     from {
+        transform-origin: center;
+        transform: rotate(45deg) translate(0, 8px);
+    } to {
+        rotate: (0);
+    }
+} 

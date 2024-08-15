@@ -1,0 +1,39 @@
+.travel-stay-header {
+    background-image: url('../../assets/travel-stay-img.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 30vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-bottom: 30px;
+
+    h1 {
+        font-size: 3rem;
+    }
+}
+
+.hotel-recommendations, .vacation-rentals {
+    span {
+        text-align: center;
+    }
+
+    padding: 10px;
+}
+
+.vacation-rentals {
+    .vacation-rental {
+        margin: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        a {
+            text-decoration: underline;
+        }
+    }
+}

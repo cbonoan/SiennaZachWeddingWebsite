@@ -1,0 +1,146 @@
+#event-details {
+    margin-top: 100px;
+
+    #ceremony-details {
+        margin-bottom: 50px;
+    }
+
+    #ceremony-details, #reception-details{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        div {
+            text-align: center;
+        }
+
+        h1 {
+            &:nth-child(1) {
+                font-size: 4rem;
+            }
+        }
+
+        h2 {
+            margin-bottom: 30px;
+            font-size: 2rem;
+        }
+
+        .details {
+            h1 {
+                display: none;
+            }
+
+            hr {
+                display: none;
+            }
+        }
+    }
+
+    img {
+        max-width: 70%;
+        max-height: 70%;
+        margin-bottom: 15px;
+    }
+
+    #see-how-it-started {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        hr {
+            width: 75%;
+            opacity: 1;
+        }
+
+        #see-how-it-started-btn {
+            padding: 20px 0;
+            text-align: center;
+
+            .btn {
+                font-size: 20px;
+                margin-top: 20px;
+                border-radius: 0;
+                padding: 25px 50px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 992px) {
+    #event-details {
+        padding: 0 50px;
+
+        h1 {
+            &:first-child {
+                display: none;
+            }
+        }
+
+        #ceremony-details, #reception-details {
+            div {
+                width: 50%;
+            }
+
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+        .details {
+            width: 50%;
+
+            h1 {
+                display: block !important;
+            }
+
+            hr {
+                display: block !important;
+                overflow: visible; /* For IE */
+                padding: 0;
+                border: none;
+                border-top: medium double #333;
+                color: #333;
+                text-align: center;
+
+                &:after {
+                    display: inline-block;
+                    position: relative;
+                    top: -0.7em;
+                    font-size: 1.5em;
+                    padding: 0 0.25em;
+                    background: white;
+                }
+            }
+        }
+
+        #ceremony-details {
+            flex-direction: row;
+            margin-bottom: 125px;
+        }
+        
+        #reception-details {
+            flex-direction: row-reverse;
+        }
+
+        img {
+  
+            margin-bottom: 0;
+        }
+
+        #see-how-it-started {
+            margin-top: 100px;
+            flex-direction: row;
+            justify-content: center;
+
+            #see-how-it-started-btn {
+                margin-left: 45px;
+                margin-right: 45px;
+            }
+
+            hr {
+                width: 35%;   
+            }
+        }
+    }
+}
