@@ -1,30 +1,33 @@
-# React + TypeScript + Vite
+# Sienna's and Zach's Wedding website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A beautiful and personalized wedding website create for my good friends Sienna and Zach. This website provides information about the wedding including event details, RSVP, and other things.
 
-Currently, two official plugins are available:
+## Table of Contents
+- [About the Project](#about-the-project)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Live Demo](#live-demo)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## About the Project
 
-## Expanding the ESLint configuration
+This wedding website was designed to provide all the essential details about the wedding day, including the schedule, venue information, and RSVP link. 
+The site also features a gallery of the couple's engagement photo shoot.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Features
+- Responsive design that works across all devices
+- Mobile-first design
+- Detailed information about the wedding day events
+- Gallery showcasing the couple's photos.
 
-- Configure the top-level `parserOptions` property like this:
+## Technologies Used
+- HTML5 & CSS3
+- Vite
+- Typescript
+- React.js
+- React Bootstrap
+- React Router DOM
+- Github Pages (for deployment)
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## Live Demo
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Check out the live website [here](szmarriedinmaui.com)
