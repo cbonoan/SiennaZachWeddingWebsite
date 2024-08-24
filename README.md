@@ -20,7 +20,7 @@ The site also features a gallery of the couple's engagement photo shoot.
 - Gallery showcasing the couple's photos.
 
 ## Technologies Used
-- HTML5 & CSS3
+- HTML5 & SASS
 - Vite
 - Typescript
 - React.js

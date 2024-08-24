@@ -47,8 +47,8 @@ const FAQ = () => {
                 <span>
                     Unfortunately, due to limitations, we are unable to accommodate a plus one to each of our
                     guests. To see if you are able to bring a plus one, refer to your “save the date”. Those listed under
-                    “passengers invited” are the only individuals invited. If an individual listed is not able to attend,
-                    <span>DO NOT</span> bring and/or RSVP for another individual to “fill in” their spot.
+                    “passengers invited” are the only individuals invited. If an individual listed is not able to 
+                    attend, <span>DO NOT</span> bring and/or RSVP for another individual to “fill in” their spot.
                 </span>
 
                 <hr/>
@@ -62,6 +62,19 @@ const FAQ = () => {
                     etc.). Stiletto heels are not recommended due to the area mainly consisting of grass. 
                     Guests are more than welcome to wear more formal attire for the ceremony and change into
                     casual-nice clothing for the reception.
+                </span>
+
+                <hr/>
+
+                <h5>
+                    Should I bring a gift?
+                </h5>
+                <span>
+                    We recognize the expenses needed to celebrate with us and are grateful to have you. Your
+                    presence at our wedding is all we need; it is truly our greatest gift. However, if you really wish to
+                    honor us with a gift, contributing to our honeymoon would be very welcome. If you wish to give
+                    a physical gift, please wait until we are back home to avoid any issues with luggage space and
+                    flight limitations.
                 </span>
 
                 <hr/>
