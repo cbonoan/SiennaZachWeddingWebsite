@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { Button } from "react-bootstrap";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
@@ -63,12 +62,6 @@ const CustomNavbar = () => {
                                 path="/faqs"
                             />
                         </Nav>
-                            <a
-                                target="_blank"
-                                href="https://docs.google.com/forms/d/e/1FAIpQLSceuvVFn167ckaL-9dErpJtZriP1qIRk8cTYWTTwnkqsJ3jmg/viewform?vc=0&c=0&w=1&flr=0&usp=mail_form_link"
-                            >
-                                <Button variant="dark">RSVP</Button>
-                            </a>
                     </Navbar.Collapse>
                 </Container>
             </Navbar>

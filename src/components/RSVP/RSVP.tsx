@@ -11,18 +11,15 @@ const RSVP = () => {
                 src={RegistryImage}
             />
             <div id='registry-content'>
-                <span>Join us!</span>
+                <span>Deadline for RSVP has passed!</span>
                 <span>
-                    We hope you can make it!
+                    See you there!
                 </span>
-                <a 
-                    target='_blank'
-                    href='https://docs.google.com/forms/d/e/1FAIpQLSceuvVFn167ckaL-9dErpJtZriP1qIRk8cTYWTTwnkqsJ3jmg/viewform?vc=0&c=0&w=1&flr=0&usp=mail_form_link'
-                >
-                    <Button variant='light'>
+                <div>
+                    <Button disabled variant='light'>
                         RSVP
                     </Button>
-                </a>
+                </div>
             </div>
         </div>
     );
